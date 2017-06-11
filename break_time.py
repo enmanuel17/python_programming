@@ -3,5 +3,10 @@
 import webbrowser
 import time
 
-time.sleep(10)
-webbrowser.open("https://www.youtube.com/watch?v=NlmezywdxPI")
+counter = 0 #counter to keep track of the loop/breaks
+numOfBreaks = 3 # number of wanted breaks
+
+while (counter < numOfBreaks):
+	print "take a break!"
+	time.sleep(5) #sleeps 5 seconds
+	webbrowser.open("https://www.youtube.com/watch?v=NlmezywdxPI")
