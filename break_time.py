@@ -10,3 +10,4 @@ while (counter < numOfBreaks):
 	print "take a break!"
 	time.sleep(5) #sleeps 5 seconds
 	webbrowser.open("https://www.youtube.com/watch?v=NlmezywdxPI")
+	counter = counter + 1
