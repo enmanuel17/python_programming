@@ -6,6 +6,7 @@ import time
 counter = 0 #counter to keep track of the loop/breaks
 numOfBreaks = 3 # number of wanted breaks
 
+print ("This program started on"+time.ctime())
 while (counter < numOfBreaks):
 	print "take a break!"
 	time.sleep(5) #sleeps 5 seconds
